@@ -1,7 +1,14 @@
 const container = document.querySelector('#container-main');
-
-const pixel = document.createElement('div');
-pixel.classList.add('pixel');
+const size = 4
 
 
-container.appendChild(pixel)
+for (let i = 0; i < (size * size); i++) {
+    container.appendChild(document.createElement('div'))
+
+};
+
+const pixels = container.querySelectorAll('div')
+
+pixels.forEach((pixel) => {
+    pixel.classList.add('pixel')
+})
