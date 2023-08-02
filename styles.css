@@ -1,16 +1,27 @@
 .pixel {
-    height: 32px;
-    width: 32px;
-    background-color: red;
+    background-color: lightgrey;
     margin: 0;
 }
 
 #container-main {
-    width: 512px;
+    margin: 0 auto;
+    border: solid black 1px;
+    width: 960px;
     display: flex;
     flex-wrap: wrap;
 }
 
 .active {
-    background-color: blue;
+    background-color: black;
 }
+
+button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
